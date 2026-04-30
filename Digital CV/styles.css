@@ -9,8 +9,10 @@ a {
     color: inherit;
 }
 
-a:hover {
-    color: green;
+nav a:hover {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -20,29 +22,56 @@ nav {
     color: white;
     padding: 15px 0;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 h2, h3, h4 {
     max-height: 20px;
 }
 
-.read-more a {
-    color: white;
-    display: inline-block;
-    background-color: rgb(118, 181, 240);
+.about {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.about:hover {
+    background-color: rgb(228, 233, 238);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     
 }
 
-.read-more a:hover {
-    background-color: rgb(7, 70, 130);
+.read-more {
+    display: inline-block;
+}
+
+.read-more:hover {
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .work-experience {
     background-color: rgb(118, 181, 240);
-    padding: 10px;
+    padding: 25px;
     padding-top: 1px;
     text-align: right;
+    border-radius: 20px;
+}
+.work-experience:hover {
+    background-color: rgb(82, 152, 218);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+.education {
+    padding: 10px;
+}
+
+.education:hover {
+    background-color: rgb(228, 233, 238);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
 .skills {
@@ -50,19 +79,44 @@ h2, h3, h4 {
     padding: 10px;
     padding-top: 1px;
     text-align: right;
+    border-radius: 20px;
+}
+
+.skills:hover {
+    background-color: rgb(82, 152, 218);
+    border-radius: 0px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.contact {
+    margin-top: 30px;
+    justify-content: center;
+}
+.contact a {
+    display: ;
+    margin: 5px;
+    justify-content: center;
 }
 
 .contact a {
-    display: inline-block;
-    margin: 5px;
-    padding: 8px 12px;
-    background-color: rgb(9, 87, 160);
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
-    justify-content: space-between;
+  font-size: 28px;
+  color: #333;
+  transition: 0.3s;
 }
+.contact a .fa-whatsapp:hover {
+  color: #25D366; } /* WhatsApp */
 
-.contact a:hover {
-    background-color: rgb(7, 70, 130);
+.contact a .fa-linkedin:hover {
+    color: #0077B5; } /* LinkedIn */
+
+.contact a .fa-github:hover {
+    color: #000; }    /* GitHub */
+
+.contact a .fa-instagram:hover {
+    color: #E4405F; } /* Instagram */
+
+
+.please-contact {
+    text-align: center;
+    margin-bottom: 15px;
 }
