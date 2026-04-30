@@ -1,0 +1,68 @@
+body {
+    font-family: poppins, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(9, 87, 160);
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3, h4 {
+    max-height: 20px;
+}
+
+.read-more a {
+    color: white;
+    display: inline-block;
+    background-color: rgb(118, 181, 240);
+    
+}
+
+.read-more a:hover {
+    background-color: rgb(7, 70, 130);
+}
+
+.work-experience {
+    background-color: rgb(118, 181, 240);
+    padding: 10px;
+    padding-top: 1px;
+    text-align: right;
+}
+
+.skills {
+    background-color: rgb(118, 181, 240);
+    padding: 10px;
+    padding-top: 1px;
+    text-align: right;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: rgb(9, 87, 160);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.contact a:hover {
+    background-color: rgb(7, 70, 130);
+}
